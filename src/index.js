@@ -11,9 +11,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-    <BrowserRouter basename="/react-dummy">
+//     <BrowserRouter basename="/react-dummy">
     <App />
-    </BrowserRouter>
+//     </BrowserRouter>
     </Provider>
   </React.StrictMode>
 );
