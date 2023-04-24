@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>aboutus</title>
+    <style>
+              body {
+          margin: 0;
+          font-size: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .header {
+          background-color: #f1f1f1;
+          padding: 30px;
+          text-align: center;
+        }
+        
+        #navbar {
+          overflow: hidden;
+          background-color: black;
+        }
+        
+        #navbar a {
+          float: right;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        #navbar a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        #navbar a.active {
+          background-color: blue;
+          color: white;
+        }
+        
+        #navbar img {
+          float: left;
+          height: 35px; 
+          padding: 5px;
+          padding-left: 10px;
+        }
+
+        
+        .header {
+          background-color: #f1f1f1;
+          padding: 30px;
+          text-align: center;
+        }
+        
+        #navbar {
+        
+          overflow: hidden;
+          background-color: black;
+        }
+        
+        #navbar a {
+          float: right;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        #navbar a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        #navbar a.active {
+          background-color: blue;
+          color: white;
+        }
+        
+        .content {
+          padding: 16px;
+        }
+        
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+        
+        .sticky + .content {
+          padding-top: 60px;
+        }
+      main {
+        max-width: 900px;
+        margin: 1.5rem auto;
+          margin-top: 5rem;
+      }
+
+      .about-us {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+          margin-top: 1rem;
+      }
+
+      .about-us p {
+        line-height: 1;
+        margin-bottom: 1rem;
+          margin-top: 4rem;
+          font-size: 75%;
+      }
+
+      footer {
+        background-color: #f1f1f1;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      footer h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      footer li {
+        margin-bottom: 1rem;
+        font-size: medium;
+      }
+
+      footer a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }   
+      header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+          }
+          
+          header h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: bold;
+            letter-spacing: 3px;
+          }
+          
+          /* styles for footer */
+          footer {
+            background-color: #eee;
+            padding: 20px;
+          }
+
+          /* styles for footer sections */
+          .footer-section {
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            width: calc(100%/4 - 20px);
+          }
+          
+          .footer-section h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+          
+          .footer-section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.5;
+          }
+          
+          .footer-section li {
+            margin-bottom: 5px;
+          }
+          
+          .footer-section a {
+            color: #333;
+            text-decoration: none;
+          }
+          
+          .footer-section a:hover {
+            color: #999;
+          }
+          
+
+        .footer-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        
+        .footer-section {
+          flex-basis: 20%;
+          padding: 6px;
+        }
+        
+        .social li {
+          display: inline-block;
+        }
+        
+        @media screen and (max-width: 768px) {
+          .footer-section {
+            flex-basis: 25%;
+          }
+        }
+        
+        @media screen and (max-width: 480px) {
+          .footer-section {
+            flex-basis: 100%;
+          }
+        }
+         .card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        img2 {   
+            width: 300px;
+            height: 200px;
+            }
+
+        .card h3 {
+            margin-top: 0;
+        }
+        .container {
+            display: grid;
+            align-items: center; 
+            grid-template-columns: 4fr 1fr 1fr;
+            column-gap: 5px;
+            
+            }
+
+            img {
+            max-width: 100%;
+            max-height:100%;
+            }
+
+            .text {
+            font-size: 20px;
+            }
+  
+</style>
+</head>
+<body>
+
+    
+<div id="navbar">
+  <img src="../Images/teslalogo.png" alt="CAR RENTAL LOGO">
+  <a href="/">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="contactus.html">Contact</a>
+    <a class="active" href="#">About Us</a>
+    
+  </div>
+  <main >
+    
+    <div class="container">
+      <!-- <img src="../Images/2.png"> -->
+
+        <div class="image">
+          <!-- <div id="name"></div> -->
+          <!-- <img src="../Images/SUV/1.PNG"> -->
+          <img src="" id="imgmy"/>
+        </div>
+        <div class="text">
+          <h2>
+            <ul>
+                <li style="font-size: 25px;">Name: <span id="name" style="font-size: 20px;"></span> </li>
+                <br>
+                <li style="font-size: 25px;" >Price:<span id="price"style="font-size: 20px;" ></span> </li>
+                <br>
+                <li style="font-size: 25px;">Mail: <span id="mail" style="font-size: 20px;" ></span></li>
+                <br>
+                <li  style="font-size: 25px;">Phone: <span id="phone"style="font-size: 20px;" ></span></li>
+                <br>
+                <li  style="font-size: 25px;">City: <span id="city"style="font-size: 20px;" ></span> </li>
+                <!-- <br/>
+                <li  style="font-size: 25px;">Description: <span id="description" style="font-size: 20px;" ></span> </li> -->
+            </ul>
+        
+        </h2>
+          <br>
+        </div>
+        
+      </div>
+
+      <div>
+        <iframe src="" id="gmap" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+   </main>
+   <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>OVERVIEW</h3>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Dealer solutions</a></li>
+          <li><a href="#">Used Cars Business</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>CONNECT WITH US</h3>
+        <ul>
+          <li><a href="#">Scrap my car</a></li>
+          <li><a href="#">Advertise with Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Customer Care</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>OTHERS</h3>
+        <ul>
+          <li><a href="#">+1 647 897 3072 (Toll-Free)</a></li>
+          <li><a href="#">support@geeks.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Social</h3>
+        <ul class="social">
+          <li><a href="#"><i class="fa fa-instagram"></i>   Instagram</a></li><br>
+          <li><a href="#"><i class="fa fa-twitter"></i>   Twitter</a></li><br>
+          <li><a href="#"><i class="fa fa-youtube"></i>   Youtube</a></li><br>
+          <li><a href="#"><i class="fa fa-twitch"></i>   Twitch</a></li><br>
+          <li><a href="#"><i class="fa fa-linkedin"></i>   Linkedin</a></li><br>
+        </ul>
+      </div>
+      
+
+    
+    </div>
+  </footer>
+ 
+  
+  <script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+
+
+
+  getdata()
+  function getdata(){
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    console.log(sURLVariables)
+
+    const car={
+      
+    }
+    for (var i = 0; i < sURLVariables.length; i++) 
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        car[sParameterName[0]]=sParameterName[1];        
+    }
+
+    //console.log(car)
+    //document.getElementById("imgmy").src="../Images/SUV/"+car.carId+"1.png";
+    //console.log(car.carId)
+    document.getElementById("name").innerHTML+=car.car_name;
+    document.getElementById("phone").innerHTML+=car.phone;
+    document.getElementById("mail").innerHTML+=car.mail;
+    document.getElementById("price").innerHTML+=car.price;
+    document.getElementById("city").innerHTML+=car.location
+    document.getElementById("imgmy").src="../Images/SUV/"+car.carId+".png"
+    document.getElementById("gmap").src="https://www.google.com/maps/embed?pb="+car.src
+    // document.getElementById("description").innerHTML=car.description
+    
+    
+    console.log("//////////////",car.owner_name)
+    console.log("//////////////",car.price)
+    console.log("//////////////",car.mail)
+    console.log("//////////////",car.phone)
+    console.log("//////////////",car.location)
+  }
+  // Get the URL of the image
+
+        // var imageUrl = "../Images/SUV/1.png";
+        // var img = document.getElementById("imgmy");
+        // img.src = imageUrl;
+  
+  </script>
+</body>
+</html>
+
+  

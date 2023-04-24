@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>aboutus</title>
+    <style>
+              body {
+          margin: 0;
+          font-size: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .header {
+          background-color: #f1f1f1;
+          padding: 30px;
+          text-align: center;
+        }
+        
+        #navbar {
+          overflow: hidden;
+          background-color: black;
+        }
+        
+        #navbar a {
+          float: right;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        #navbar a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        #navbar a.active {
+          background-color: blue;
+          color: white;
+        }
+        
+        #navbar img {
+          float: left;
+          height: 35px; 
+          padding: 5px;
+          padding-left: 10px;
+        }
+
+        
+        .header {
+          background-color: #f1f1f1;
+          padding: 30px;
+          text-align: center;
+        }
+        
+        #navbar {
+        
+          overflow: hidden;
+          background-color: black;
+        }
+        
+        #navbar a {
+          float: right;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        #navbar a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        #navbar a.active {
+          background-color: blue;
+          color: white;
+        }
+        
+        .content {
+          padding: 16px;
+        }
+        
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+        
+        .sticky + .content {
+          padding-top: 60px;
+        }
+      main {
+        max-width: 900px;
+        margin: 1.5rem auto;
+          margin-top: 5rem;
+      }
+
+      .about-us {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+          margin-top: 1rem;
+      }
+
+      .about-us p {
+        line-height: 1;
+        margin-bottom: 1rem;
+          margin-top: 4rem;
+          font-size: 75%;
+      }
+
+      footer {
+        background-color: #f1f1f1;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      footer h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      footer li {
+        margin-bottom: 1rem;
+        font-size: medium;
+      }
+
+      footer a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }   
+      header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+          }
+          
+          header h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: bold;
+            letter-spacing: 3px;
+          }
+          
+          /* styles for footer */
+          footer {
+            background-color: #eee;
+            padding: 20px;
+          }
+
+          /* styles for footer sections */
+          .footer-section {
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            width: calc(100%/4 - 20px);
+          }
+          
+          .footer-section h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+          
+          .footer-section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.5;
+          }
+          
+          .footer-section li {
+            margin-bottom: 5px;
+          }
+          
+          .footer-section a {
+            color: #333;
+            text-decoration: none;
+          }
+          
+          .footer-section a:hover {
+            color: #999;
+          }
+          
+
+        .footer-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        
+        .footer-section {
+          flex-basis: 20%;
+          padding: 6px;
+        }
+        
+        .social li {
+          display: inline-block;
+        }
+        
+        @media screen and (max-width: 768px) {
+          .footer-section {
+            flex-basis: 25%;
+          }
+        }
+        
+        @media screen and (max-width: 480px) {
+          .footer-section {
+            flex-basis: 100%;
+          }
+        }
+         .card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        img2 {   
+            width: 300px;
+            height: 200px;
+            }
+
+        .card h3 {
+            margin-top: 0;
+        }
+</style>
+</head>
+<body>
+
+    
+<div id="navbar">
+  <img src="../Images/teslalogo.png" alt="CAR RENTAL LOGO">
+  <a href="/">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="contactus.html">Contact</a>
+    <a class="active" href="#">About Us</a>
+    
+  </div>
+  <main >
+    <section class="about-us">
+    <h2>Welcome to About Us</h2>
+        <p>Welcome to our car rental website! We are a team of car enthusiasts who are delite to provide you convenient and affordable car rental services.
+            Our goal is to make car rental easy and enjoyable.
+            We offer a wide range of vehicles to choose from, including economy cars,sedans and SUV. 
+            Our car are checked in terms of maintaince,safety and insurance.
+            Our website is user-friendly and easy to navigate, allowing you to book a car  Our team of friendly and knowledgeable customer service representatives is available 24/7 to assist you with any questions or concerns you may have.
+             We strive to provide our customers with the best possible rental experience at an affordable price. 
+            We believe in transparency and honesty in all our dealings, and we ensure that there are no hidden fees or charges.
+            Thank you for choosing our car rental website for your transportation needs. We look forward to serving you and making your rental experience a memorable one.</p>
+    </section>
+    		<section id="services">
+			<h2>Know Your Team</h2>
+            <div class="card">
+				<!-- <img class="img2" src="social.jpg" alt="Devansh Solani"> -->
+				<h3>Devansh Solani</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet labore maiores cupiditate quis voluptatibus totam? Atque quisquam facilis voluptatibus placeat quos eligendi vitae, accusantium, ut, praesentium sint aut reiciendis possimus.</p>
+      </div>
+			<div class="card">
+				<!-- <img class="img2" src="sketch.jpg" alt="Shruti Italiya"> -->
+				<h3>Shruti Italiya</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores similique qui ducimus dolor dolorum, laborum, facilis ipsum blanditiis veritatis nihil eum. Assumenda, voluptas similique. Dicta officiis quas odit animi iusto?</p>
+			</div>
+      <div class="card">
+				<!-- <img class="img2" src="space.jpg"  alt="Janvi Patel"> -->
+				<h3>Janvi Patel</h3>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, quisquam voluptatum? Repellendus iure exercitationem amet ut suscipit aliquid nesciunt quam omnis et, dolor aspernatur. Assumenda in suscipit ducimus voluptate sapiente.</p>
+			</div>
+      <div class="card">
+				<!-- <img class="img2" src="space.jpg"  alt="Yash Shah"> -->
+				<h3>Yash Shah</h3>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, reiciendis eveniet. Suscipit rerum, distinctio fugit fugiat magnam hic illum autem saepe labore natus, sed placeat porro doloremque? Corrupti, nobis sed.</p>
+			</div>
+
+		</section>
+   </main>
+   <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>OVERVIEW</h3>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Dealer solutions</a></li>
+          <li><a href="#">Used Cars Business</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>CONNECT WITH US</h3>
+        <ul>
+          <li><a href="#">Scrap my car</a></li>
+          <li><a href="#">Advertise with Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Customer Care</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>OTHERS</h3>
+        <ul>
+          <li><a href="#">+1 647 897 3072 (Toll-Free)</a></li>
+          <li><a href="#">support@geeks.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Social</h3>
+        <ul class="social">
+          <li><a href="#"><i class="fa fa-instagram"></i>   Instagram</a></li><br>
+          <li><a href="#"><i class="fa fa-twitter"></i>   Twitter</a></li><br>
+          <li><a href="#"><i class="fa fa-youtube"></i>   Youtube</a></li><br>
+          <li><a href="#"><i class="fa fa-twitch"></i>   Twitch</a></li><br>
+          <li><a href="#"><i class="fa fa-linkedin"></i>   Linkedin</a></li><br>
+        </ul>
+      </div>
+    </div>
+  </footer>
+ 
+  
+  <script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+</body>
+</html>
